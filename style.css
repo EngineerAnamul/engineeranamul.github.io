@@ -140,6 +140,16 @@ body {
     box-shadow: 0 0 20px #0ef;
 }
 
+.home-sci  a:hover i img {
+    transform: scale(1.2);
+    filter: brightness(0) saturate(100%);
+}
+
+.contact-icons  a:hover i img {
+    transform: scale(1.2);
+    filter: brightness(0) saturate(100%);
+}
+
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
@@ -351,6 +361,15 @@ body {
     transform: scaleX(0);
     transform-origin: left;
 }
+.progress-line.java span {
+    width: 90%;
+}
+.progress-line.flutter {
+    width: 90;
+}
+.progress-line.python span {
+    width: 88%;
+}
 
 .progress-line.html span {
     width: 90%;
@@ -360,16 +379,11 @@ body {
     width: 80%;
 }
 
-.progress-line.python span {
-    width: 75%;
-}
 
-.progress-line.java span {
-    width: 50%;
-}
 
-.progress-line.cpls span {
-    width: 50%;
+
+.progress-line.javascript span {
+    width: 70%;
 }
 
 .progress-line span::after {
@@ -398,10 +412,10 @@ body {
 }
 
 .progress-line.java span::after {
-    content: "50%";
+    content: "90%";
 }
 
-.progress-line.cpls span::after {
+.progress-line.javascript span::after {
     content: "50%";
 }
 
@@ -668,7 +682,9 @@ body {
     margin-top: 20px;
     display: inline-block;
 }
-
+.prj-list div p{
+    font-size: 18px;
+}
 .read {
     display: inline-block;
     padding: 12px 20px;
@@ -1049,10 +1065,10 @@ body {
         content: "75%";
     }
     .bar .info .addjava::before{
-        content: "50%";
+        content: "90%";
     }
     .bar .info .addc::before{
-        content: "50%";
+        content: "90%";
     }
 
     /*project*/
