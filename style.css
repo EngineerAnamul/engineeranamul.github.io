@@ -364,8 +364,8 @@ body {
 .progress-line.java span {
     width: 90%;
 }
-.progress-line.flutter {
-    width: 90;
+.progress-line.flutter span {
+    width: 90%;
 }
 .progress-line.python span {
     width: 88%;
@@ -399,6 +399,12 @@ body {
     opacity: 0;
 }
 
+.progress-line.java span::after {
+    content: "90%";
+}
+.progress-line.flutter span::after {
+    content: "90%";
+}
 .progress-line.html span::after {
     content: "90%";
 }
@@ -408,15 +414,13 @@ body {
 }
 
 .progress-line.python span::after {
-    content: "75%";
+    content: "88%";
 }
 
-.progress-line.java span::after {
-    content: "90%";
-}
+
 
 .progress-line.javascript span::after {
-    content: "50%";
+    content: "70%";
 }
 
 .progress-line span::before {
@@ -793,14 +797,33 @@ body {
     box-shadow: 0 0 20px #0ef;
 }
 
-.last-text p{
+/* .last-text p{
     width: 100%;
     text-align: center;
     padding: 25px;
     background: black;
     font-weight: 300;
     margin-top: 0px;
+} */
+
+ .footer {
+  text-align: center;
+  padding: 15px;
+  background: #0a0a0a; /* Dark background */
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  border-top: 1px solid #222;
 }
+.footer p {
+  margin: 0;
+}
+.footer span {
+  color: #00eeff; /* Highlight year with your brand color */
+  font-weight: 600;
+}
+
+
 .top{
     position: fixed;
     bottom: 2.1rem;
@@ -1065,6 +1088,10 @@ body {
         content: "75%";
     }
     .bar .info .addjava::before{
+        content: "90%";
+    }
+    
+    .bar .info .addflutter::before{
         content: "90%";
     }
     .bar .info .addc::before{
