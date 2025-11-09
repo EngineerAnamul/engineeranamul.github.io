@@ -8,25 +8,101 @@
         <link rel="shortcut icon" type="image/png" href="ic.png">
         <link rel="stylesheet" href='style.css'>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/x-icon" href="Anamul4.png">    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         
     </head>
     <body>
+
+
+
+
+
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="aih_logo.png" alt="AIH Company Logo" loading="lazy" />
+      AIH Company
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+    <ul class="navbar-nav ms-auto align-items-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#Home">
+          <i class="bi bi-house-door me-1"></i> Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About">
+          <i class="bi bi-info-circle me-1"></i> About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Skills">
+          <i class="bi bi-gear me-1"></i> Skills
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Services">
+          <i class="bi bi-kanban me-1"></i> Service
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Projects">
+          <i class="bi bi-people me-1"></i> Projects
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">
+          <i class="bi bi-envelope me-1"></i> Contact
+        </a>
+      </li>
+      
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
         
-        <header class="header">
-            
-            <a href="#" class="logo">AIH Company</a>
-            <nav class="navbar" id="myLinks">
-                <a href="#Home" style="--i:1" class="active" >Home</a>
-                <a href="#About" style="--i:2">About</a>
-                <a href="#Skills" style="--i:3">Skills</a>
-                <a href="#Projects" style="--i:4">Projects</a>
-                <a href="#Contact" style="--i:5">Contact</a>
-            </nav>
-        </header>
+
+        
+        <!-- <header class="header">
+  <a href="#" class="logo"><i class="bi bi-cpu me-1"></i> AIH Company</a>
+
+  <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav class="navbar" id="myLinks">
+    <a href="#Home"><i class="bi bi-house-door"></i> Home</a>
+    <a href="#About"><i class="bi bi-person"></i> About</a>
+    <a href="#Skills"><i class="bi bi-lightning-charge"></i> Skills</a>
+    <a href="#Services"><i class="bi bi-gear"></i> Service</a>
+    <a href="#Projects"><i class="bi bi-laptop"></i> Projects</a>
+    <a href="#Contact"><i class="bi bi-envelope"></i> Contact</a>
+  </nav>
+</header> -->
 
 
-        <section class="home" id="Home">
+
+        <section class="home" id="Home" >
             <div class="home-content">
                 
                 <h3>Hello, It's Me</h3>
@@ -35,7 +111,7 @@
                     passionate in <span class="text"></span></h4>
                 
                 <div class="img">
-                     <img src="Anamul4.png" class="responsive">
+                        <img src="Anamul4.png" class="responsive">
                 </div>
 
                 <div class="home-sci">
@@ -49,45 +125,53 @@
         </section>
 
 
-        <section>
-            <div class="about" id="About">
-                <div class="about-img">
-                    <img src="gig_thumbail.png" class="abt-res">
-                </div>
-                <div class="about-text">
-                    <h2>About <span>Me</span></h2>
-                    <p>
-A passionate Mobile App & Web Developer from Bangladesh.<br>
-I specialize in building Android Apps (Java),<br>
-Flutter Cross-Platform Apps,<br>
-and Modern Websites with clean design and smart functionality.<br><br>
 
-I’m also the founder of Richer Master Tech, where I create apps, websites, AI tools,<br>
-and digital content to help businesses grow in today’s tech-driven world.<br><br>
 
-<strong>What I Do</strong><br>
-📱 Mobile App Development (Android & iOS)<br>
-🌍 Website Design & Dashboard<br>
-🛠️ App Testing, Debugging & Deployment<br>
-🎬 Video Editing & Creative Content<br>
-🤖 AI Tools & Automation<br>
-🎨 Graphic Design & Branding<br><br>
 
-<strong>My Goal</strong><br>
-To deliver high-quality, user-friendly apps and digital solutions that make a real impact.
-<br><br>
-                        <a href="" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
-                    </p>
+
+
+        <section id="About" class="about-section">
+        <div class="container">
+            <div class="about-content">
+            
+            <!-- Left Side: Video -->
+            <div class="about-video">
+                <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/syhgesznVnA"
+                    title="Anamul Developer Portfolio"
+                    allowfullscreen>
+                </iframe>
                 </div>
             </div>
+
+            <!-- Right Side: Text -->
+            <div class="about-text">
+                <h2 class="gradient-title">About <span>Me</span></h2>
+                <p>
+                I’m <strong>Md. Anamul Islam</strong> — a passionate <strong>Mobile App & Web Developer</strong> from Bangladesh 🇧🇩.<br><br>
+                I specialize in <b>Android (Java)</b>, <b>Flutter Cross-Platform Apps</b>, and <b>Modern Web Design</b> that blends creativity with technology.<br><br>
+                Founder of <strong>Richer Master Tech</strong>, where I build smart apps, AI tools, and automation solutions for businesses.<br><br>
+                <strong>What I Do</strong><br>
+                📱 App Development (Android & iOS)<br>
+                🌍 Website Design & Dashboard<br>
+                🎬 Video Editing & Branding<br>
+                🤖 AI Tools & Automation<br><br>
+                <strong>My Goal:</strong> To create impactful, user-friendly, and intelligent digital products for the modern world.
+                </p>
+                <a href="#" class="btn-modern" target="_blank">📄 Download Resume</a>
+            </div>
+
+            </div>
+        </div>
         </section>
 
-        
+
         <section id="Skills">
             <h1 class="subtitle">My <span>Skills</span></h1>
             <div class="sec">
                 <div class="container1">
-                    <h1 class="heading1">Technical Skills</h1>
+                    <h1 class="heading1"><i class="bi bi-cpu me-2"></i>Technical Skills</h1>
                     <div class="Technical-bars">
 
                         <div class="bar"><i class='bx bxl-java' style="color: #D0A384;"></i>
@@ -149,7 +233,7 @@ To deliver high-quality, user-friendly apps and digital solutions that make a re
                 </div>
 
                 <div class="container2">
-                    <h1 class="heading1">Professional Skills</h1>
+                    <h1 class="heading1"><i class="bi bi-lightbulb me-2"></i>Professional Skills</h1>
                     <div class="radial-bars">
                         <div class="radial-bar">
                             <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -191,6 +275,103 @@ To deliver high-quality, user-friendly apps and digital solutions that make a re
             </div>
         </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 🌐 Service Section -->
+<section id="Services" class="services-section">
+<div class="container">
+  <h1 class="section-title">My <span>Services</span></h1>
+
+  <div class="service-grid">
+  <!-- 1️⃣ Mobile App -->
+  <div class="service-card">
+      <i class="bx bx-mobile-alt"></i>
+      <h3>Mobile App Development</h3>
+      <p>
+      I build user-friendly and high-performance mobile apps for Android & iOS.
+      From idea to launch, I ensure your app solves real business problems and helps you grow digitally.
+      </p>
+      <span class="result">📱 Result: Launch-ready professional apps.</span>
+  </div>
+
+  <!-- 2️⃣ Cross Platform -->
+  <div class="service-card">
+      <i class="bx bx-code-block"></i>
+      <h3>Cross-Platform Apps</h3>
+      <p>
+      Using <strong>Flutter & React Native</strong>, I create apps that run on both Android and iOS with a single codebase.
+      </p>
+      <span class="result">🚀 Result: Faster, cost-effective & seamless apps.</span>
+  </div>
+
+  <!-- 3️⃣ Web Dev -->
+  <div class="service-card">
+      <i class="bx bx-globe"></i>
+      <h3>Web Development</h3>
+      <p>
+      I design and develop modern, responsive websites that reflect your brand identity and boost your online presence.
+      </p>
+      <span class="result">💻 Result: Engaging, sales-driven websites.</span>
+  </div>
+
+  <!-- 4️⃣ UI/UX -->
+  <div class="service-card">
+      <i class="bx bx-cube"></i>
+      <h3>UI / UX Design</h3>
+      <p>
+      I design interfaces that blend beauty and usability, ensuring every user enjoys a seamless and elegant experience.
+      </p>
+      <span class="result">🎨 Result: Attractive & intuitive designs.</span>
+  </div>
+
+  <!-- 5️⃣ Testing -->
+  <div class="service-card">
+      <i class="bx bx-bug"></i>
+      <h3>App Testing & Debugging</h3>
+      <p>
+      I fix bugs, enhance security, and optimize apps for performance and reliability.
+      </p>
+      <span class="result">🧠 Result: Stable and secure applications.</span>
+  </div>
+
+  <!-- 6️⃣ AI Tools -->
+  <div class="service-card">
+      <i class="bx bx-analyse"></i>
+      <h3>AI Tools & Automation</h3>
+      <p>
+      I develop AI-powered tools that automate workflows and increase efficiency for businesses.
+      </p>
+      <span class="result">🤖 Result: Smarter & faster operations.</span>
+  </div>
+
+  <!-- 7️⃣ Branding -->
+  <div class="service-card">
+      <i class="bx bx-palette"></i>
+      <h3>Creative Content & Branding</h3>
+      <p>
+      I design logos, videos, and digital content that give your brand a strong identity in the market.
+      </p>
+      <span class="result">🎬 Result: Memorable and unique brand image.</span>
+  </div>
+  </div>
+</div>
+</section>
+
+
+
+        <!-- Preject Section -->
         <section id="Projects">
             <div id="portfolio" class="services">
                 <div class="main-text" id="serv">
@@ -236,83 +417,8 @@ To deliver high-quality, user-friendly apps and digital solutions that make a re
             </div>
         </section>
 
-        <section id="Services">
-            <div class="project">
-                <div class="container">
-                    <h1 class="sub-title">My <span>Services</span></h1>
-                    <div class="prj-list">
 
-                        <div>
-                            <i class='bx bx-mobile-alt' style="color: #00eeff;"></i>
-                            <h2>Mobile App Development</h2>
-                            <p>
-                                I build user-friendly and high-performance mobile apps for both Android & iOS.  
-                                From idea to launch, I ensure your app solves real business problems, attracts users, and helps you grow digitally.<br>
-                                <strong>Result:</strong> A professional app ready for Play Store & App Store with ongoing support.
-                            </p>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-code-block' style="color: #00eeff;"></i>
-                            <h2>Cross-Platform Apps</h2>
-                            <p>
-                                Using <strong>Flutter & React Native</strong>, I create apps that run smoothly on both Android & iOS with one codebase.<br>  
-                                <strong>Result:</strong> Faster development, cost-effective solution, and seamless user experience. 
-                            </p>
-                        </div>
-                        <div>
-                            <i class='bx bx-globe' style="color: #00eeff;"></i>
-                            <h2>Web Development</h2>
-                            <p>
-                                I design and develop responsive, modern websites and dashboards that reflect your brand identity.<br>  
-                                <strong>Result:</strong> A powerful online presence that engages customers, boosts sales, and builds trust. 
-                            </p>
-                        </div>
-
-                        
-                        <div>
-                            <i class='bx bx-cube' style="color: #00eeff;"></i>
-                            <h2>UI / UX Design</h2>
-                            <p>
-                                I don’t just design screens, I design experiences.  
-                                By combining modern design trends with user psychology, I create interfaces that are beautiful, simple, and highly functional.  <br>
-                                <strong>Result:</strong> Your users will enjoy seamless navigation and your brand will build stronger trust.
-                            </p>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-bug' style="color: #00eeff;"></i>
-                            <h2>App Testing & Debugging</h2>
-                            <p>
-                                I identify bugs, fix performance issues, and optimize apps for speed, security, and reliability.  <br>
-                                <strong>Result:</strong> Stable and secure applications your users can trust.
-                            </p>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-analyse' style="color: #00eeff;"></i>
-                            <h2>AI Tools & Automation</h2>
-                            <p>
-                                I develop simple AI-based tools and automation that save time, reduce workload, and increase efficiency.  <br>
-                                <strong>Result:</strong> Smarter workflows and better productivity for your business.
-                            </p>
-                        </div>
-
-                        <div>
-                            <i class='bx bx-palette' style="color: #00eeff;"></i>
-                            <h2>Creative Content & Branding</h2>
-                            <p>
-                                I design logos, edit videos, and create digital content that makes your brand stand out.  <br>
-                                <strong>Result:</strong> A strong brand identity that attracts and retains customers.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="contacts" id="Contact">
+        <!-- <section class="contacts" id="Contact">
             <div class="contact-text">
                 <h2>Contact <span>Me</span></h2>
                 <h4>Let's Work Together</h4>
@@ -329,7 +435,44 @@ To deliver high-quality, user-friendly apps and digital solutions that make a re
                 </div>
             </div>
             
-        </section>
+        </section> -->
+
+
+
+        <!-- 🌐 Modern Contact Section -->
+<section class="contact-section" id="Contact">
+  <div class="contact-container">
+    <h2 class="contact-title">Contact <span>Me</span></h2>
+    <p class="contact-subtitle">Let's Work Together</p>
+
+    <div class="contact-links">
+      <a href="mailto:anamuli699@gmail.com" class="contact-btn">
+        <i class='bx bxs-send'></i> Mail Me
+      </a>
+      <a href="tel:01617963617" class="contact-btn">
+        <i class="bx bxs-phone-call"></i> Call Me
+      </a>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.fiverr.com/s/KeD0BEW" target="_blank" title="Fiverr">
+        <img src="ic_fiverr.svg" alt="Fiverr" />
+      </a>
+      <a href="https://youtube.com/@ghotonarchhaya?si=2BeBHufY4nrjJB8y" target="_blank">
+        <i class='bx bxl-youtube'></i>
+      </a>
+      <a href="https://www.linkedin.com/in/anamul-developer-1a820732b" target="_blank">
+        <i class="bx bxl-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/md.anamul.islam.620875" target="_blank">
+        <i class='bx bxl-facebook'></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
 
         <div class="footer">
             <p>
